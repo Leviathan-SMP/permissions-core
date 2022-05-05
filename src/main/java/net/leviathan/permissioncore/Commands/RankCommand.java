@@ -28,7 +28,7 @@ public class RankCommand implements CommandExecutor {
 
                         for (Rank rank : Rank.values()) {
                             if (rank.name().equalsIgnoreCase(args[1])) {
-                                main.getRankManager().setRank(target.getUniqueId(), rank);
+                                main.getRankManager().setRank(target.getUniqueId(), rank, false);
                                 player.sendMessage(ChatColor.GREEN + "You successfully set " + ChatColor.YELLOW + target.getName() + ChatColor.GREEN + " to " + ChatColor.YELLOW + rank.getDisplay());
                                 if (target.isOnline()) {
                                     target.getPlayer().sendMessage(ChatColor.GREEN + "Your group has been set to " + ChatColor.YELLOW + rank.getDisplay());
