@@ -5,4 +5,4 @@ api-version: 1.18
 authors: [ Harold ]
 description: Core plugin that handles all rank permissions for the LEVIATHAN project.
 commands:
-  rank:
+    rank:

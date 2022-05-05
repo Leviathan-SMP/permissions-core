@@ -1,5 +1,7 @@
-package net.leviathan.permissioncore;
+package net.leviathan.permissioncore.manager;
 
+import net.leviathan.permissioncore.PermissionCore;
+import net.leviathan.permissioncore.Rank;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
