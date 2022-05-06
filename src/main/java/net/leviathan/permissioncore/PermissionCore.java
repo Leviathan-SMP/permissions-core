@@ -23,6 +23,7 @@ public final class PermissionCore extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new RankListener(this), this);
     }
     public RankManager getRankManager() { return rankManager; }
-    public static NametagManager getNametagManager() { return nametagManager; }
+    public NametagManager getNametagManager() { return nametagManager; }
 
+    //public String getRank(Player player) { return Rank; }
 }
